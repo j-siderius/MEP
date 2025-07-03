@@ -157,5 +157,19 @@
         "elevation": 582,
         "duration": 240,
         "link": "https://www.naturwanderpark.eu/wanderwege/a-stausee-pruemtalroute"
+    },
+    {
+        "name": "Wandelroute B1",
+        "gpxFile": "lokale-wandelroute-b1.gpx",
+        "elevation": 193,
+        "duration": 185,
+        "link": "https://www.mullerthal.lu/nl/routes/lokale-wandelroute-b1"
+    },
+    {
+        "name": "Wandelroute B18",
+        "gpxFile": "lokale-wandelroute-b18.gpx",
+        "elevation": 193,
+        "duration": 79,
+        "link": "https://www.mullerthal.lu/nl/routes/lokale-wandelroute-b18"
     }
 ]

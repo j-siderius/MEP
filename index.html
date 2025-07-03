@@ -81,10 +81,11 @@
                         let gpx_obj = new L.GPX('routes/' + data[route].gpxFile, {
                             async: true,
                             polyline_options: {
-                                // TODO: change color according to length of route
                                 color: 'blue',
-                                opacity: 0.75,
-                                weight: 2
+                                weight: 5
+                            },
+                            markers: {
+                                endIcon: null
                             }
                         })
                             .on('loaded', (e) => {
@@ -95,14 +96,21 @@
                                 if (e.target.get_total_time() > 0) { est_time = `Estimated time: ${e.target.get_total_time()} min <br>`; }
                                 else if (data[route].duration) { est_time = `Estimated time: ${data[route].duration} min <br>`; }
                                 let link = data[route].link != null ? `Link: <a href='${data[route].link}' target='_blank'>click</a><br>` : "";
+                                let desc = "";
+                                if (e.target.get_desc()) { desc = `${e.target.get_desc()}<br>` }
                                 let popup = `<b> ${data[route].name} </b><br><hr>
-                            Distance: ${(Math.trunc(e.target.get_distance()) / 1000).toFixed(1)}km <br>
-                            ${elevation}
-                            ${est_time}
-                            ${link}
-                            GPX: <a href='${'routes/' + data[route].gpxFile}' target='_blank'>download</a>
-                            `
+                                Distance: ${(Math.trunc(e.target.get_distance()) / 1000).toFixed(1)}km <br>
+                                ${elevation}
+                                ${est_time}
+                                ${desc}
+                                ${link}
+                                GPX: <a href='${'routes/' + data[route].gpxFile}' target='_blank'>download</a>
+                                `
                                 gpx_obj.bindPopup(popup);
+                                gpx_obj.setStyle({
+                                    color: getRouteColor(Math.trunc(e.target.get_distance())),
+                                    weight: 3
+                                })
                             });
 
 
@@ -115,6 +123,25 @@
         layerControl.addOverlay(gpx_objects, "Routes");
         gpx_objects.addTo(map);
 
+        function getRouteColor(distance) {
+            if (distance < 2500) {
+                return "#005200";
+            } else if (distance < 5000) {
+                return "#275900";
+            } else if (distance < 7500) {
+                return "#485e00";
+            } else if (distance < 10000) {
+                return "#666000";
+            } else if (distance < 12500) {
+                return "#885f00";
+            } else if (distance < 15000) {
+                return "#af5700";
+            } else if (distance < 17500) {
+                return "#d84200";
+            } else {
+                return "#ff0000";
+            }
+        }
 
         let point_objects = new L.layerGroup();
 
