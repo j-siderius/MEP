@@ -181,6 +181,7 @@ const icons = {};
 for (i in icon_files) {
     let name = icon_files[i].replace('-15.svg', '');
 
+    // TODO: Change to L.divIcon
     icons[name] = L.icon({
         iconUrl: 'icons/' + icon_files[i],
         iconSize: [20, 20],

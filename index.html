@@ -37,11 +37,21 @@
     <div id="map"></div>
 
     <script type="module">
-        var map = L.map('map').setView([49.83671960577302, 6.470543056668829], 10);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+        var map = L.map('map', {
+            center: [51.37, 6.17],
+            zoom: 8
+        });
+
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
+
+        let layerControl = L.control.layers({
+            "OSM": osm
+        }).addTo(map);
+
 
         function onLocationFound(e) {
             var radius = e.accuracy;
@@ -58,59 +68,79 @@
         map.on('locationfound', onLocationFound);
         map.on('locationerror', onLocationError);
 
-        let gpx_objects = [];
+        let gpx_objects = new L.layerGroup();
 
         fetch('routes/gpx_routes.json')
             .then(response => response.json())
             .then(data => {
                 for (let route in data) {
-                    let gpx_obj = new L.GPX('routes/' + data[route].gpxFile, {
-                        async: true,
-                        polyline_options: {
-                            color: 'blue',
-                            opacity: 0.75,
-                            weight: 2
-                        }
-                    })
-                        .on('loaded', (e) => {
-                            let popup = `<b>${e.target.get_name()}</b> <br><hr>
+                    if (!data[route].gpxFile) {
+                        console.error("This route entry does not contain a GPX file:", data[route]);
+                        continue;
+                    } else {
+                        let gpx_obj = new L.GPX('routes/' + data[route].gpxFile, {
+                            async: true,
+                            polyline_options: {
+                                // TODO: change color according to length of route
+                                color: 'blue',
+                                opacity: 0.75,
+                                weight: 2
+                            }
+                        })
+                            .on('loaded', (e) => {
+                                let elevation = "";
+                                if (e.target.get_elevation_gain() > 0) { elevation = `Elevation: ${(Math.trunc(e.target.get_elevation_gain())).toFixed(0)}m <br>`; }
+                                else if (data[route].elevation) { elevation = `Elevation: ${data[route].elevation}m <br>`; }
+                                let est_time = "";
+                                if (e.target.get_total_time() > 0) { est_time = `Estimated time: ${e.target.get_total_time()} min <br>`; }
+                                else if (data[route].duration) { est_time = `Estimated time: ${data[route].duration} min <br>`; }
+                                let link = data[route].link != null ? `Link: <a href='${data[route].link}' target='_blank'>click</a><br>` : "";
+                                let popup = `<b> ${data[route].name} </b><br><hr>
                             Distance: ${(Math.trunc(e.target.get_distance()) / 1000).toFixed(1)}km <br>
-                            Elevation: ${(Math.trunc(e.target.get_elevation_gain())).toFixed(0)}m <br>
-                            Estimated time: ${e.target.get_total_time()} min <br>
-                            Information: <a href='${data[route].link}' target='_blank'>click</a><br>
+                            ${elevation}
+                            ${est_time}
+                            ${link}
                             GPX: <a href='${'routes/' + data[route].gpxFile}' target='_blank'>download</a>
                             `
-                            gpx_obj.bindPopup(popup);
-                        })
-                        .addTo(map)
+                                gpx_obj.bindPopup(popup);
+                            });
 
-                    gpx_objects.push(gpx_obj);
+
+                        gpx_objects.addLayer(gpx_obj);
+                    }
                 }
             })
             .catch(error => console.error("An error occured while loading gpx_routes.json:", error));
 
-        let point_objects = [];
+        layerControl.addOverlay(gpx_objects, "Routes");
+        gpx_objects.addTo(map);
+
+
+        let point_objects = new L.layerGroup();
 
         fetch('points/points.json')
             .then(response => response.json())
             .then(data => {
                 for (let point in data) {
-                    let link = data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a>` : "";
+                    let link = data[point].link != "" && data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a>` : "";
+                    let info = data[point].information != "" && data[point].information != null ? `Information: ${data[point].information}<br>` : "";
                     let popup = `<b>${data[point].name}</b> <br><hr>
-                            Information: ${data[point].information}<br>
+                            ${info}
                             Coordinates: ${data[point].coordinates[0].toFixed(4)}, ${data[point].coordinates[1].toFixed(4)}<br>
                             ${link}
                             `
                     let point_obj = L.marker(data[point].coordinates, {
                         icon: icons[data[point].icon]
                     })
-                        .bindPopup(popup)
-                        .addTo(map);
+                        .bindPopup(popup);
 
-                    point_objects.push(point_obj);
+                    point_objects.addLayer(point_obj);
                 }
             })
             .catch(error => console.error("An error occured while loading points.json:", error));
+
+        layerControl.addOverlay(point_objects, "Points");
+        point_objects.addTo(map);
 
     </script>
 </body>

@@ -1,21 +1,586 @@
 [
     {
-        "name": "Vianden kasteel",
-        "coordinates": [49.93509918646038, 6.202726023752354],
-        "icon": "castle",
+        "name": "Camping Südeifel",
+        "coordinates": [
+            49.8421871,
+            6.4570298
+        ],
+        "icon": "campsite",
         "information": "",
-        "link": "https://castle-vianden.lu/"
+        "link": ""
     },
     {
-        "name": "Echternach winkelcentrum",
-        "coordinates": [49.80512436395064, 6.404731521934309],
+        "name": "Caravanstalling Almere - Citystalling",
+        "coordinates": [
+            52.41376390000001,
+            5.266636099999999
+        ],
         "icon": "building",
-        "information": "Action, REWE, etc."
+        "information": "",
+        "link": ""
     },
     {
-        "name": "Tankstation",
-        "coordinates": [49.8095372874567, 6.435346687979967],
+        "name": "tankpool24 Tankstelle",
+        "coordinates": [
+            52.1165584,
+            7.084414100000001
+        ],
         "icon": "fuel",
-        "information": "TotalEnergies Echternach"
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "AVIA",
+        "coordinates": [
+            51.75472970000001,
+            6.964193499999999
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            51.7021463,
+            6.929824900000001
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            51.2605955,
+            6.908638700000001
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            51.1590046,
+            6.9610434
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            50.858301,
+            6.804698
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.450112,
+            6.668034500000001
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "TotalEnergies Echternach",
+        "coordinates": [
+            49.80954320000001,
+            6.4353504
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Station Texaco",
+        "coordinates": [
+            49.8163171,
+            6.4145705
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            49.80821619999999,
+            6.4290747
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso Eemakker",
+        "coordinates": [
+            52.2638238,
+            5.255068400000001
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso Neerduist",
+        "coordinates": [
+            52.2056311,
+            5.3843162
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            52.165745,
+            5.477177999999999
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell Hondsiep",
+        "coordinates": [
+            51.6832527,
+            5.8931995
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso Venray Oost",
+        "coordinates": [
+            51.50565730000001,
+            6.0223209
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "TotalEnergies Tegelen",
+        "coordinates": [
+            51.35207,
+            6.14987
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            51.0050377,
+            6.5222652
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tankstelle Prüm",
+        "coordinates": [
+            50.204462,
+            6.4229904
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            51.328827,
+            6.211266
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "AVIA Vriezenveen",
+        "coordinates": [
+            52.434438,
+            6.62899
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "SHELL Station Hengelo Zuid",
+        "coordinates": [
+            52.243087,
+            6.764968
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "ALDI SÜD",
+        "coordinates": [
+            49.8485033,
+            6.452383
+        ],
+        "icon": "shop",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "EDEKA Kraus",
+        "coordinates": [
+            49.8472404,
+            6.4584245
+        ],
+        "icon": "shop",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "DIETZ - der frische Bäcker",
+        "coordinates": [
+            49.84695050000001,
+            6.457499299999999
+        ],
+        "icon": "shop",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "dm-drogerie markt",
+        "coordinates": [
+            49.8482132,
+            6.454190699999999
+        ],
+        "icon": "pharmacy",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.8270998,
+            6.343941300000001
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.8362522,
+            6.331517300000001
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "P Ice park",
+        "coordinates": [
+            49.8407735,
+            6.2871502
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parkplatz Teufelsschlucht und Dinosaurierpark",
+        "coordinates": [
+            49.84255330000001,
+            6.4343774
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parkplatz Felsenweiher",
+        "coordinates": [
+            49.8381678,
+            6.417006
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.80066679999999,
+            6.416589399999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parkhaus Hauptmarkt Trier",
+        "coordinates": [
+            49.75834119999999,
+            6.639169799999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking place Engelman",
+        "coordinates": [
+            49.9348447,
+            6.201424799999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "BP De Poel",
+        "coordinates": [
+            52.0636942,
+            5.6113314
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso Arnhem Slenkweg",
+        "coordinates": [
+            52.0076638,
+            5.8114778
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parkeerplaats St Silvesterkirche",
+        "coordinates": [
+            49.82369,
+            6.4688371
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.8145027,
+            6.435772
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parkplatz am Waldsportplatz",
+        "coordinates": [
+            49.8639497,
+            6.3671097
+        ],
+        "icon": "parking",
+        "information": "54669 Bollendorf (zu erreichen über Neuerburger Straße und Altstraße)",
+        "link": ""
+    },
+    {
+        "name": "Parking Hohllay",
+        "coordinates": [
+            49.81649770000001,
+            6.3597438
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking Perekop",
+        "coordinates": [
+            49.8174277,
+            6.3763838
+        ],
+        "icon": "parking",
+        "information": "epische trappen naar boven",
+        "link": ""
+    },
+    {
+        "name": "Public parking Echternach Central station",
+        "coordinates": [
+            49.8160762,
+            6.416040899999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.83373109999999,
+            6.288131899999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "",
+        "coordinates": [
+            49.8335997,
+            6.2920918
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking Prumzurlay",
+        "coordinates": [
+            49.8704449,
+            6.4386775
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking Irrel Waterfalls",
+        "coordinates": [
+            49.85481249999999,
+            6.446769499999999
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking Osweiler",
+        "coordinates": [
+            49.7857768,
+            6.4406157
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Parking Zur Rotlay",
+        "coordinates": [
+            50.01644779999999,
+            6.4409085
+        ],
+        "icon": "parking",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Hängebrücke Irreler Wasserfälle 5km",
+        "coordinates": [
+            49.8553149,
+            6.4453952
+        ],
+        "icon": "viewpoint",
+        "information": "Wandelen via Achtsamkeitsweg & Gemeinschaftsgarten 5km verharde wegen",
+        "link": ""
+    },
+    {
+        "name": "Outdoor Freizeit Dillingen (Kanu Verleih )",
+        "coordinates": [
+            49.8522456,
+            6.321209199999998
+        ],
+        "icon": "building",
+        "information": "Van tevoren bellen!",
+        "link": ""
+    },
+    {
+        "name": "Tourenplanner Rheinland-Pfalz",
+        "coordinates": [
+            49.84,
+            6.46
+        ],
+        "icon": "triangle",
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tours/"
+    },
+    {
+        "name": "Das Bad an den Kaiserthermen",
+        "coordinates": [
+            49.748887,
+            6.640077
+        ],
+        "icon": "swimming",
+        "link": "https://www.swt.de/"
+    },
+    {
+        "name": "Lac Echternach schwimmen",
+        "coordinates": [
+            49.800261,
+            6.413953
+        ],
+        "icon": "swimming",
+        "link": "https://www.visitechternach.lu/de/stecker/pool/schwimmen-im-echternacher-see"
+    },
+    {
+        "name": "Echternach",
+        "coordinates": [
+            49.81218,
+            6.42168
+        ],
+        "icon": "town",
+        "link": "https://www.visitechternach.lu/en"
+    },
+    {
+        "name": "Trier",
+        "coordinates": [
+            49.75959,
+            6.64398
+        ],
+        "icon": "town",
+        "information": "<a href='https://foreverlostintravel.com/one-day-in-trier-and-why-thats-not-enough/'>https://foreverlostintravel.com/one-day-in-trier-and-why-thats-not-enough/</a> - <a href='https://www.asausagehastwo.com/trier-travel-guide/'>https://foreverlostintravel.com/one-day-in-trier-and-why-thats-not-enough/</a>",
+        "link": "https://www.trier-info.de/en"
+    },
+    {
+        "name": "Vianden",
+        "coordinates": [
+            49.93368,
+            6.20650
+        ],
+        "icon": "town",
+        "information": "<a href='https://www.solosophie.com/guide-to-vianden-things-to-do/'>https://www.solosophie.com/guide-to-vianden-things-to-do/</a> <br> <a href='https://www.charlotteplansatrip.com/en/luxembourg/castle-vianden/'>https://www.charlotteplansatrip.com/en/luxembourg/castle-vianden/</a>",
+        "link": "https://www.visit-vianden.lu/en"
+    },
+    {
+        "name": "Beaufort",
+        "coordinates": [
+            49.83516,
+            6.29019
+        ],
+        "icon": "town",
+        "link": "https://www.visitbeaufort.lu/nl"
+    },
+    {
+        "name": "Wollefsschlucht",
+        "coordinates": [
+            49.816215,
+            6.401296
+        ],
+        "icon": "triangle",
+        "link": "https://www.naturpark-mellerdall.lu/en/heritage/wollefsschlucht-eine-schlucht-im-sandstein/"
     }
 ]

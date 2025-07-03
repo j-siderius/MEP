@@ -1,17 +1,161 @@
 [
     {
-        "name": "testRoute1",
-        "gpxFile": "Mullerthal_Trail_Route_1.gpx",
-        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-1"
+        "name": "Wandelroute B12",
+        "gpxFile": "Lokale_wandelroute_-_B12.gpx",
+        "elevation": 282,
+        "duration": 55,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/lokale-wandelroute-b12"
     },
     {
-        "name": "testRoute2",
-        "gpxFile": "Mullerthal_Trail_Route_2.gpx",
-        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-2"
+        "name": "Wandelroute B17",
+        "gpxFile": "Lokale_Wandelroute_-_B17.gpx",
+        "elevation": 227,
+        "duration": 100,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/culturalheritage/lokale-wandelroute-b17"
     },
     {
-        "name": "testRoute3",
-        "gpxFile": "Mullerthal_Trail_Route_3.gpx",
-        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-3"
+        "name": "Wandelroute B2",
+        "gpxFile": "Lokale_wandelroute_-_B2.gpx",
+        "elevation": 368,
+        "duration": 80,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/plaatselijk-rondwandelpad-b2"
+    },
+    {
+        "name": "Wandelroute B5",
+        "gpxFile": "Lokale_wandelroute_-_B5.gpx",
+        "elevation": 374,
+        "duration": 100,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/local-hiking-trail-b5"
+    },
+    {
+        "name": "Rundwanderweg nr. 54",
+        "gpxFile": "rundwanderweg-des-naturpark-suedeifel-nr-54-teufelsschlucht.gpx",
+        "elevation": 570,
+        "duration": 180,
+        "link": "https://www.felsenland-suedeifel.de/a-rundweg-nr-54-teufelsschlucht"
+    },
+    {
+        "name": "Wandelroute W6",
+        "gpxFile": "Lokale_wandelroute-_W6.gpx",
+        "elevation": 319,
+        "duration": 95,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/lokale-wandelroute-w6"
+    },
+    {
+        "name": "Rundweg 53 Ernzen(aanpasbaar)",
+        "gpxFile": "komoot_tour_936834929.gpx",
+        "elevation": 251,
+        "duration": 300,
+        "link": "https://www.komoot.com/nl-nl/tour/936834929"
+    },
+    {
+        "name": "Rundwanderweg Nr. 68",
+        "gpxFile": "t9014187_rundwanderweg des.gpx",
+        "elevation": 300,
+        "duration": 105,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/rundwanderweg-des-naturpark-suedeifel-nr.-68-minden-echternacherbrueck/9014187/"
+    },
+    {
+        "name": "Rundwanderweg nr. 56",
+        "gpxFile": "t41671231_rundwanderweg naturpark.gpx",
+        "elevation": 260,
+        "duration": 120,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/rundwanderweg-naturpark-suedeifel-nr.-56-bollendorf/41671231/"
+    },
+    {
+        "name": "Grüne Hölle nr. 55",
+        "gpxFile": "t804149605_gruene-hoelle-tour.gpx",
+        "elevation": 224,
+        "duration": 120,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/gruene-hoelle-tour-bollendorf-rundweg-des-naturpark-suedeifel-nr.-55/804149605/"
+    },
+    {
+        "name": "Rundwanderweg nr. 46",
+        "gpxFile": "t41671022_rundwanderweg des.gpx",
+        "elevation": 230,
+        "duration": 105,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/rundwanderweg-des-naturpark-suedeifel-46-in-der-nusbaumer-hardt/41671022"
+    },
+    {
+        "name": "Heilbrunnen Schweich 10",
+        "gpxFile": "t56737345_moselsteig-seitensprung.gpx",
+        "elevation": 561,
+        "duration": 185,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/moselsteig-seitensprung-meulenwaldto-u-r-schweich/56737345"
+    },
+    {
+        "name": "Rundwanderweg E1",
+        "gpxFile": "Lokale_wandelroute_-_E1.gpx",
+        "elevation": 326,
+        "duration": 240,
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/lokale-wandelroute-e1"
+    },
+    {
+        "name": "Wandelroute B10",
+        "gpxFile": "t58330048_local hiking trail - b10.gpx",
+        "duration": 80,
+        "link": "https://www.visitbeaufort.lu/en/fiche/walking/local-hiking-trail-b10"
+    },
+    {
+        "name": "Wandelroute B4",
+        "gpxFile": "t58330571_local hiking trail - b4.gpx",
+        "duration": 110,
+        "link": "https://www.visitbeaufort.lu/en/fiche/walking/local-hiking-trail-b4"
+    },
+    {
+        "name": "Naturwanderpark Felsenweg 5",
+        "gpxFile": "t3618416_naturwanderpark delux.gpx",
+        "elevation": 600,
+        "duration": 270,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/naturwanderpark-delux-felsenweg-5-pruemer-burg-irrel-/3618416/"
+    },
+    {
+        "name": "Rundwanderweg nr. 58",
+        "gpxFile": "t41671121_rundwanderweg des.gpx",
+        "elevation": 240,
+        "duration": 108,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/wanderung/rundwanderweg-des-naturpark-suedeifel-nr.-58-holsthum-ferschweiler/41671121/"
+    },
+    {
+        "name": "Wandelroute Osweiler",
+        "gpxFile": "rondwandelroute-osweiler.gpx",
+        "elevation": 227,
+        "duration": 185,
+        "link": "https://www.mullerthal.lu/nl/fiche/walking/rondwandelroute-osweiler"
+    },
+    {
+        "name": "Wandelroute Hängebrucke / Prümzurlay",
+        "gpxFile": "t804438138_kombi-route haengebruecke.gpx",
+        "elevation": 196,
+        "duration": 80,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/kombi-route-haengebruecke-irreler-wasserfaelle-pruemzurlay/804438138/"
+    },
+    {
+        "name": "Wandelroute rondje Stausee",
+        "gpxFile": "komoot_tour_29805404.gpx",
+        "elevation": 76,
+        "duration": 67,
+        "link": "https://www.komoot.com/smarttour/29805404"
+    },
+    {
+        "name": " Stausee Bitburg - Seepromenade rondtocht vanuit Biersdorf am See",
+        "gpxFile": "komoot_tour_29810743.gpx",
+        "elevation": 370,
+        "duration": 225,
+        "link": "https://www.komoot.com/nl-nl/smarttour/29810743"
+    },
+    {
+        "name": " Stausee Bitburg - Seepromenade rondtocht vanuit Echtershausen",
+        "gpxFile": "komoot_tour_25133621.gpx",
+        "elevation": 140,
+        "duration": 128,
+        "link": "https://www.komoot.com/nl-nl/smarttour/25133621"
+    },
+    {
+        "name": "Stausee Prümtalroute",
+        "gpxFile": "mussepfad-stausee-pruemtalroute.gpx",
+        "elevation": 582,
+        "duration": 240,
+        "link": "https://www.naturwanderpark.eu/wanderwege/a-stausee-pruemtalroute"
     }
 ]
