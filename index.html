@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>MEP - Many Exotic Places</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-gpx@2.2.0/gpx.js" defer></script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico">
+
+    <script src="icons/_icons.js"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script type="module">
+        var map = L.map('map').setView([49.83671960577302, 6.470543056668829], 10);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        function onLocationFound(e) {
+            var radius = e.accuracy;
+
+            L.marker(e.latlng).addTo(map)
+                .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+            L.circle(e.latlng, radius).addTo(map);
+        }
+        function onLocationError(e) {
+            alert(e.message);
+        }
+
+        map.on('locationfound', onLocationFound);
+        map.on('locationerror', onLocationError);
+
+        let gpx_objects = [];
+
+        fetch('routes/gpx_routes.json')
+            .then(response => response.json())
+            .then(data => {
+                for (let route in data) {
+                    let gpx_obj = new L.GPX('routes/' + data[route].gpxFile, {
+                        async: true,
+                        polyline_options: {
+                            color: 'blue',
+                            opacity: 0.75,
+                            weight: 2
+                        }
+                    })
+                        .on('loaded', (e) => {
+                            let popup = `<b>${e.target.get_name()}</b> <br><hr>
+                            Distance: ${(Math.trunc(e.target.get_distance()) / 1000).toFixed(1)}km <br>
+                            Elevation: ${(Math.trunc(e.target.get_elevation_gain())).toFixed(0)}m <br>
+                            Estimated time: ${e.target.get_total_time()} min <br>
+                            Information: <a href='${data[route].link}' target='_blank'>click</a><br>
+                            GPX: <a href='${'routes/' + data[route].gpxFile}' target='_blank'>download</a>
+                            `
+                            gpx_obj.bindPopup(popup);
+                        })
+                        .addTo(map)
+
+                    gpx_objects.push(gpx_obj);
+                }
+            })
+            .catch(error => console.error("An error occured while loading gpx_routes.json:", error));
+
+        let point_objects = [];
+
+        fetch('points/points.json')
+            .then(response => response.json())
+            .then(data => {
+                for (let point in data) {
+                    let link = data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a>` : "";
+                    let popup = `<b>${data[point].name}</b> <br><hr>
+                            Information: ${data[point].information}<br>
+                            Coordinates: ${data[point].coordinates[0].toFixed(4)}, ${data[point].coordinates[1].toFixed(4)}<br>
+                            ${link}
+                            `
+                    let point_obj = L.marker(data[point].coordinates, {
+                        icon: icons[data[point].icon]
+                    })
+                        .bindPopup(popup)
+                        .addTo(map);
+
+                    point_objects.push(point_obj);
+                }
+            })
+            .catch(error => console.error("An error occured while loading points.json:", error));
+
+    </script>
+</body>
+
+</html>

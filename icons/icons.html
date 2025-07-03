@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Grid</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-gpx@2.2.0/gpx.js" defer></script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+
+    <script src="_icons.js"></script>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .icon-name {
+            font-size: 0.8em;
+            word-break: break-all;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table id="imageTable">
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+
+        // Get the table body
+        const tableBody = document.getElementById('tableBody');
+
+        // Create rows with 10 columns
+        for (let i = 0; i < Math.ceil(icon_files.length / 10); i++) {
+            const row = document.createElement('tr');
+
+            // Create 10 cells for this row
+            for (let j = 0; j < 10; j++) {
+                const cell = document.createElement('td');
+                const index = i * 10 + j;
+
+                // Check if we have an image for this cell
+                if (index < icon_files.length) {
+                    const img = document.createElement('img');
+                    img.src = icon_files[index];
+
+                    // Extract and display the icon name
+                    const iconName = icon_files[index].replace('-15.svg', '').split('/').pop();
+
+                    const nameElement = document.createElement('div');
+                    nameElement.textContent = iconName;
+                    nameElement.classList.add('icon-name');
+
+                    cell.appendChild(img);
+                    cell.appendChild(nameElement);
+                }
+
+                row.appendChild(cell);
+            }
+
+            tableBody.appendChild(row);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "testRoute1",
+        "gpxFile": "Mullerthal_Trail_Route_1.gpx",
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-1"
+    },
+    {
+        "name": "testRoute2",
+        "gpxFile": "Mullerthal_Trail_Route_2.gpx",
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-2"
+    },
+    {
+        "name": "testRoute3",
+        "gpxFile": "Mullerthal_Trail_Route_3.gpx",
+        "link": "https://www.mullerthal-trail.lu/nl/fiche/walking/stap-wandeling-mullerthal-trail-route-3"
+    }
+]

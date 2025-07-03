@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Vianden kasteel",
+        "coordinates": [49.93509918646038, 6.202726023752354],
+        "icon": "castle",
+        "information": "",
+        "link": "https://castle-vianden.lu/"
+    },
+    {
+        "name": "Echternach winkelcentrum",
+        "coordinates": [49.80512436395064, 6.404731521934309],
+        "icon": "building",
+        "information": "Action, REWE, etc."
+    },
+    {
+        "name": "Tankstation",
+        "coordinates": [49.8095372874567, 6.435346687979967],
+        "icon": "fuel",
+        "information": "TotalEnergies Echternach"
+    }
+]
