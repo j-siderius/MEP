@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEP - Add routes</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico">
+    <style>
+    </style>
+</head>
+
+<body>
+    <h1>MEP - Add routes</h1>
+
+    <form action="">
+        <label for="name">Route name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Route A"><br>
+        <label for="elev">Elevation (in meters):</label><br>
+        <input type="text" id="elev" name="elev" placeholder="150"><br>
+        <label for="dur">Duration (in minutes):</label><br>
+        <input type="text" id="dur" name="dur" placeholder="65"><br>
+        <label for="link">Link:</label><br>
+        <input type="text" id="link" name="link" placeholder="https://routeinfo.com/1234"><br>
+        <label for="gpx">Select the GPX file:</label><br>
+        <input type="file" id="gpx" name="gpx" accept="application/gpx+xml"><br><br>
+
+        <button type="button" onclick="submitForm();">Add to routes</button>
+    </form>
+
+    <hr>
+
+    <table id="imageTable">
+        <tbody id="tableBody">
+            <tr>
+                <th>Name</th>
+                <th>Elevation</th>
+                <th>Duration</th>
+                <th>Link</th>
+                <th>GPX file</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <button type="button" onclick="exportRoutes();">Export added routes</button>
+
+    <script>
+        let routes = [];
+        const tableBody = document.getElementById('tableBody');
+
+        function submitForm() {
+            // Extract all info from the form
+            let nameDiv = document.getElementById("name");
+            let elevationDiv = document.getElementById("elev");
+            let durationDiv = document.getElementById("dur");
+            let linkDiv = document.getElementById("link");
+            let fileDiv = document.getElementById("gpx");
+
+            // console.log(nameDiv.value, elevationDiv.value, durationDiv.value, linkDiv.value);
+            // console.log(fileDiv, fileDiv.files[0].name);
+
+            // Parse the info into correct JSON format
+            let routeInfo = {
+                "name": nameDiv.value,
+                "gpxFile": fileDiv.files[0].name,
+                "elevation": Number(elevationDiv.value),
+                "duration": Number(durationDiv.value),
+                "link": linkDiv.value
+            };
+
+            routes.push(routeInfo);
+
+            // Add all info into table for overview
+            const row = document.createElement('tr');
+            const nameCell = document.createElement('td');
+            const elevationCell = document.createElement('td');
+            const durationCell = document.createElement('td');
+            const linkCell = document.createElement('td');
+            const gpxCell = document.createElement('td');
+
+            nameCell.innerHTML = nameDiv.value;
+            elevationCell.innerHTML = Number(elevationDiv.value);
+            durationCell.innerHTML = Number(durationDiv.value);
+            linkCell.innerHTML = linkDiv.value;
+            gpxCell.innerHTML = fileDiv.files[0].name;
+
+            row.appendChild(nameCell);
+            row.appendChild(elevationCell);
+            row.appendChild(durationCell);
+            row.appendChild(linkCell);
+            row.appendChild(gpxCell);
+            
+            tableBody.appendChild(row);
+
+            // Clear all inputs
+            nameDiv.value = "";
+            elevationDiv.value = "";
+            durationDiv.value = "";
+            linkDiv.value = "";
+            fileDiv.value = "";
+        }
+
+        function exportRoutes() {
+            console.log("- Copy the whole Array object below into the 'gpx_routes.json' file, taking care to properly add it into the array.\n- Upload all added GPX files into the 'routes' folder.")
+            console.log(routes);
+        }
+
+        
+    </script>
+
+</body>
+
+</html>

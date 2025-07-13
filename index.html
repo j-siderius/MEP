@@ -106,11 +106,31 @@
                                 ${link}
                                 GPX: <a href='${'routes/' + data[route].gpxFile}' target='_blank'>download</a>
                                 `
+
+                                const originalColor = getRouteColor(Math.trunc(e.target.get_distance()));
+                                const originalWeight = 3;
+
                                 gpx_obj.bindPopup(popup);
                                 gpx_obj.setStyle({
-                                    color: getRouteColor(Math.trunc(e.target.get_distance())),
-                                    weight: 3
+                                    color: originalColor,
+                                    weight: originalWeight
                                 })
+
+                                gpx_obj.on('popupopen', function () {
+                                    this.setStyle({
+                                        color: '#0000ff', // Blue highlight color
+                                        weight: originalWeight * 2,        // Thicker line
+                                        opacity: 0.75
+                                    });
+                                });
+
+                                gpx_obj.on('popupclose', function () {
+                                    this.setStyle({
+                                        color: originalColor, 
+                                        weight: originalWeight,
+                                        opacity: 1
+                                    });
+                                });
                             });
 
 

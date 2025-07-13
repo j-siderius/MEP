@@ -171,5 +171,12 @@
         "elevation": 193,
         "duration": 79,
         "link": "https://www.mullerthal.lu/nl/routes/lokale-wandelroute-b18"
+    },
+    {
+        "name": "Großer Rundweg Teufelsschlucht",
+        "gpxFile": "t9955475_grosser rundweg.gpx",
+        "elevation": 90,
+        "duration": 91,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/grosser-rundweg-teufelsschlucht-naturparkzentrum-teufelsschlucht/9955475/"
     }
 ]
