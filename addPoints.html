@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEP - Add points</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-gpx@2.2.0/gpx.js" defer></script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico">
+
+    <script src="icons/icons.js"></script>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .icon-name {
+            font-size: 0.8em;
+            word-break: break-all;
+        }
+
+        #iconShowcase {
+            width: 2vw;
+            height: 2vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MEP - Add points</h1>
+
+    <form action="">
+        <label for="name">Point name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Point A"><br>
+        <label for="lat">Coordinates (latitude, longitude):</label><br>
+        <input type="text" id="lat" name="lat" placeholder="49.00000">
+        <input type="text" id="long" name="long" placeholder="6.00000"><br>
+        <label for="ico">Icon:</label>
+        <!-- The select dropdown is automatically filled using JS -->
+        <select id="ico" name="ico" onchange="changeShowcase();"></select>
+        <img id="iconShowcase" src="icons/marker-15.svg" alt=""><br>
+        <label for="info">Information:</label><br>
+        <input type="text" id="info" name="info" placeholder="This point is ..."><br>
+        <label for="link">Link:</label><br>
+        <input type="text" id="link" name="link" placeholder="https://routeinfo.com/1234"><br><br>
+
+        <button type="button" onclick="submitForm();">Add to points</button>
+    </form>
+
+    <hr>
+
+    <table id="imageTable">
+        <tbody id="tableBody">
+            <tr>
+                <th>Name</th>
+                <th>Coordinates</th>
+                <th>Icon</th>
+                <th>Information</th>
+                <th>Link</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <button type="button" onclick="exportRoutes();">Export added routes</button>
+
+    <hr>
+    <h3>Available Icons</h3>
+    <table id="imageTable">
+        <tbody id="iconBody"></tbody>
+    </table>
+
+    <script>
+        // Populate the select options
+        const selectElement = document.getElementById("ico");
+
+        for (icon in icon_files) {
+            // console.log(icon_files[icon]);
+            const iconName = icon_files[icon].replace('-15.svg', '').split('/').pop();
+
+            const selectOption = document.createElement('option');
+            selectOption.value = iconName;
+            selectOption.innerHTML = iconName;
+            selectElement.append(selectOption)
+        }
+
+        function changeShowcase() {
+            let icon = document.getElementById("ico").value;
+            let showcaseDiv = document.getElementById("iconShowcase");
+
+            showcaseDiv.src = "icons/" + icon + '-15.svg';
+        }
+
+        let points = [];
+        const tableBody = document.getElementById('tableBody');
+
+        function submitForm() {
+            // Extract all info from the form
+            let nameDiv = document.getElementById("name");
+            let latDiv = document.getElementById("lat");
+            let longDiv = document.getElementById("long");
+            let linkDiv = document.getElementById("link");
+            let infoDiv = document.getElementById("info");
+            let iconDiv = document.getElementById("ico");
+
+            // console.log(nameDiv.value, latDiv.value, longDiv.value, linkDiv.value, infoDiv.value, iconDiv.value);
+
+            // Parse the info into correct JSON format
+            let pointInfo = {
+                "name": nameDiv.value,
+                "coordinates": [
+                    Number(latDiv.value),
+                    Number(longDiv.value)
+                ],
+                "icon": iconDiv.value,
+                "information": infoDiv.value,
+                "link": linkDiv.value
+            };
+
+            points.push(pointInfo);
+
+            // Add all info into table for overview
+            const row = document.createElement('tr');
+            const nameCell = document.createElement('td');
+            const coordinateCell = document.createElement('td');
+            const iconCell = document.createElement('td');
+            const iconImg = document.createElement('img');
+            const infoCell = document.createElement('td');
+            const linkCell = document.createElement('td');
+
+            nameCell.innerHTML = nameDiv.value;
+            coordinateCell.innerHTML = Number(latDiv.value) + ", " + Number(longDiv.value);
+            iconImg.src = "icons/" + iconDiv.value + '-15.svg';
+            infoCell.innerHTML = infoDiv.value;
+            linkCell.innerHTML = linkDiv.value;
+
+            row.appendChild(nameCell);
+            row.appendChild(coordinateCell);
+            iconCell.appendChild(iconImg);
+            row.appendChild(iconCell);
+            row.appendChild(infoCell);
+            row.appendChild(linkCell);
+
+            tableBody.appendChild(row);
+
+            // Clear all inputs
+            nameDiv.value = "";
+            latDiv.value = "";
+            longDiv.value = "";
+            linkDiv.value = "";
+            infoDiv.value = "";
+            iconDiv.value = "";
+            document.getElementById("iconShowcase").src = "icons/marker-15.svg";
+        }
+
+        function exportRoutes() {
+            navigator.clipboard.writeText(JSON.stringify(points));
+            alert("The points were copied to the clipboard.\n- Copy them into the 'points.json' file, taking care to properly add it into the array.");
+            console.log(points);
+        }
+
+
+    </script>
+
+</body>
+
+</html>

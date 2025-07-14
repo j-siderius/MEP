@@ -8,6 +8,17 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico">
     <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -91,7 +102,7 @@
             row.appendChild(durationCell);
             row.appendChild(linkCell);
             row.appendChild(gpxCell);
-            
+
             tableBody.appendChild(row);
 
             // Clear all inputs
@@ -103,11 +114,12 @@
         }
 
         function exportRoutes() {
-            console.log("- Copy the whole Array object below into the 'gpx_routes.json' file, taking care to properly add it into the array.\n- Upload all added GPX files into the 'routes' folder.")
+            navigator.clipboard.writeText(JSON.stringify(routes));
+            alert("The routes were copied to the clipboard.\n- Copy them into the 'gpx_routes.json' file, taking care to properly add it into the array.\n- Upload all added GPX files into the 'routes' folder.");
             console.log(routes);
         }
 
-        
+
     </script>
 
 </body>
