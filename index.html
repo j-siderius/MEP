@@ -63,11 +63,13 @@
         }).addTo(map);
 
 
+        map.locate({ setView: true, maxZoom: 12 });
+
         function onLocationFound(e) {
             var radius = e.accuracy;
 
             L.marker(e.latlng).addTo(map)
-                .bindPopup("You are within " + radius + " meters from this point").openPopup();
+                .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
 
             L.circle(e.latlng, radius).addTo(map);
         }
@@ -175,6 +177,7 @@
 
         let point_objects = new L.layerGroup();
         let parking_objects = new L.layerGroup();
+        let fuel_objects = new L.layerGroup();
 
         fetch('points/points.json')
             .then(response => response.json())
@@ -193,6 +196,7 @@
                         .bindPopup(popup);
 
                     if (data[point].icon == 'parking') { parking_objects.addLayer(point_obj) }
+                    else if (data[point].icon == 'fuel') { fuel_objects.addLayer(point_obj) }
                     else { point_objects.addLayer(point_obj); }
                 }
             })
@@ -200,7 +204,9 @@
 
         layerControl.addOverlay(point_objects, "Points");
         layerControl.addOverlay(parking_objects, "Parking");
-        parking_objects.addTo(map);
+        layerControl.addOverlay(fuel_objects, "Fuel");
+        // parking_objects.addTo(map);
+        // fuel_objects.addTo(map);
         point_objects.addTo(map);
 
     </script>

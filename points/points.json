@@ -582,5 +582,1504 @@
         ],
         "icon": "triangle",
         "link": "https://www.naturpark-mellerdall.lu/en/heritage/wollefsschlucht-eine-schlucht-im-sandstein/"
+    },
+    {
+        "name": "JET",
+        "coordinates": [
+            51.02634,
+            7.015003
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.977025,
+            7.007491
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Jet",
+        "coordinates": [
+            50.96699,
+            7.033788
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Bft",
+        "coordinates": [
+            50.965241,
+            7.025036
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Siegburg",
+        "coordinates": [
+            50.806989,
+            7.219794
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Siegburg",
+        "coordinates": [
+            50.80835,
+            7.22047
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            50.679851,
+            7.269978
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.648258,
+            7.334311
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken BAT",
+        "coordinates": [
+            50.599805,
+            7.432582
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Bell Oil",
+        "coordinates": [
+            50.561401,
+            7.527611
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.565936,
+            7.526512
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.546786,
+            7.58646
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            50.482734,
+            7.749465
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            50.448055,
+            7.851057
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total Energies",
+        "coordinates": [
+            50.451598,
+            7.848316
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.454114,
+            7.866815
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            50.410591,
+            7.947694
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Schwarz",
+        "coordinates": [
+            50.404433,
+            8.066022
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Hem",
+        "coordinates": [
+            50.381071,
+            8.090726
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            50.300447,
+            8.236827
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Bad Camberg",
+        "coordinates": [
+            50.301396,
+            8.234911
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total Energies",
+        "coordinates": [
+            50.216909,
+            8.254015
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Medenbach West",
+        "coordinates": [
+            50.096355,
+            8.351747
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Medenbach Ost",
+        "coordinates": [
+            50.095321,
+            8.353764
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            49.986647,
+            8.45033
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.938006,
+            8.496185
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.903537,
+            8.523602
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Buttelborn sud",
+        "coordinates": [
+            49.892958,
+            8.543603
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.816709,
+            8.635798
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Alsbach West",
+        "coordinates": [
+            49.747036,
+            8.591958
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Bergstrasse Ost",
+        "coordinates": [
+            49.689506,
+            8.603337
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            49.672933,
+            8.597317
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni tank",
+        "coordinates": [
+            49.592671,
+            8.640255
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total Energies",
+        "coordinates": [
+            49.507601,
+            8.636811
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Hartwald West",
+        "coordinates": [
+            49.350907,
+            8.630609
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            49.349261,
+            8.63196
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.224459,
+            8.611305
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.163166,
+            8.568793
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            49.1609,
+            8.569005
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            49.148166,
+            8.55467
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Sudtangente",
+        "coordinates": [
+            48.985699,
+            8.447526
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            48.957503,
+            8.406499
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Agip Eni",
+        "coordinates": [
+            48.810595,
+            8.184359
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            48.752635,
+            8.130213
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Bft tanken",
+        "coordinates": [
+            48.724631,
+            8.111162
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            48.640918,
+            8.038182
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            48.563788,
+            7.956915
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            48.561693,
+            7.956907
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Gunther",
+        "coordinates": [
+            48.353569,
+            7.807764
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Agip",
+        "coordinates": [
+            48.310893,
+            7.789777
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            48.307074,
+            7.790845
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            48.274564,
+            7.785512
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            48.280794,
+            7.776849
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            48.250204,
+            7.766308
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            48.226997,
+            7.754653
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            48.156778,
+            7.74465
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            48.049899,
+            7.810731
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Bat",
+        "coordinates": [
+            47.970381,
+            7.720266
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            47.953658,
+            7.6698
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            47.908376,
+            7.592324
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            47.813895,
+            7.556265
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Bad Bellingen",
+        "coordinates": [
+            47.738165,
+            7.551808
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            47.625737,
+            7.607322
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken GTW",
+        "coordinates": [
+            47.640551,
+            7.705657
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Jet",
+        "coordinates": [
+            47.645571,
+            7.770147
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "SB-tankstelle",
+        "coordinates": [
+            47.646854,
+            7.807079
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            47.600215,
+            7.603073
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            47.593918,
+            7.603654
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Avia",
+        "coordinates": [
+            47.525775,
+            7.69162
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            47.531157,
+            7.683016
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "BP",
+        "coordinates": [
+            47.526904,
+            7.701191
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "BP",
+        "coordinates": [
+            47.527888,
+            7.700356
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            47.468346,
+            7.798224
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "BP",
+        "coordinates": [
+            47.467253,
+            7.800458
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            47.32326,
+            7.804205
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni tanken",
+        "coordinates": [
+            47.228179,
+            7.620659
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "BP",
+        "coordinates": [
+            47.225857,
+            7.616152
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Coop",
+        "coordinates": [
+            47.173366,
+            7.585391
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Coop",
+        "coordinates": [
+            47.077987,
+            7.574637
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Migrol",
+        "coordinates": [
+            47.017501,
+            7.490892
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            46.990411,
+            7.477301
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Socar",
+        "coordinates": [
+            46.989378,
+            7.477045
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            46.890152,
+            7.323139
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Avia",
+        "coordinates": [
+            46.798763,
+            7.130731
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Coop",
+        "coordinates": [
+            46.780579,
+            7.087641
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            46.68213,
+            7.085089
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Coop",
+        "coordinates": [
+            46.633161,
+            7.048524
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Agrola",
+        "coordinates": [
+            46.519126,
+            6.905674
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            46.453465,
+            6.893462
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            46.385214,
+            6.921142
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            46.339466,
+            6.931779
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            46.337537,
+            6.930407
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            46.274211,
+            6.958512
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Agrola",
+        "coordinates": [
+            46.206942,
+            7.007759
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Shell",
+        "coordinates": [
+            46.128156,
+            7.060079
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            46.111129,
+            7.077022
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Coop",
+        "coordinates": [
+            46.099096,
+            7.082853
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            46.087484,
+            7.054733
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken",
+        "coordinates": [
+            46.073505,
+            7.065806
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Coop",
+        "coordinates": [
+            46.078155,
+            7.137831
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            46.078108,
+            7.142633
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Mont-Joux",
+        "coordinates": [
+            46.042235,
+            7.148402
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            45.993782,
+            7.182607
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Jubin",
+        "coordinates": [
+            45.956527,
+            7.209253
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Agip Tanken",
+        "coordinates": [
+            45.737215,
+            7.405958
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            45.74736,
+            7.624203
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "LP Tanken",
+        "coordinates": [
+            45.748147,
+            7.622241
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            45.670129,
+            7.685867
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Europam Tanken",
+        "coordinates": [
+            45.66895,
+            7.688404
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Agip Tanken",
+        "coordinates": [
+            45.597443,
+            7.790494
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            45.563118,
+            7.809311
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            45.31714,
+            7.811962
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken IP",
+        "coordinates": [
+            45.132176,
+            7.656653
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            45.12409,
+            7.640331
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Agip Tanken",
+        "coordinates": [
+            45.126585,
+            7.637416
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Q8 Tanken",
+        "coordinates": [
+            45.098989,
+            7.620917
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Q8 Tanken",
+        "coordinates": [
+            45.095825,
+            7.577321
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Repsol",
+        "coordinates": [
+            45.071274,
+            7.548118
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            45.011038,
+            7.621412
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            45.012226,
+            7.622663
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Erg",
+        "coordinates": [
+            44.998076,
+            7.630831
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            44.976963,
+            7.670029
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            44.849482,
+            7.74198
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken",
+        "coordinates": [
+            44.464543,
+            7.830253
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            44.434626,
+            7.849878
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            44.420709,
+            7.850171
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            44.406359,
+            7.935132
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tamoil",
+        "coordinates": [
+            44.376292,
+            8.037548
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken IP",
+        "coordinates": [
+            44.287214,
+            8.440413
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken IP",
+        "coordinates": [
+            44.225287,
+            8.360318
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken IP",
+        "coordinates": [
+            44.175003,
+            8.329988
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            44.168807,
+            8.341426
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            44.170461,
+            8.3443
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },{
+        "name": "Avia",
+        "coordinates": [
+            52.185612,
+            7.032368
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken IP",
+        "coordinates": [
+            44.244009,
+            8.021794
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            44.2089,
+            8.015048
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            44.313399,
+            8.048489
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken?",
+        "coordinates": [
+            44.337512,
+            8.057205
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Eni Tanken",
+        "coordinates": [
+            44.088521,
+            8.207499
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Esso",
+        "coordinates": [
+            44.088625,
+            8.206006
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tankstelle Rosner",
+        "coordinates": [
+            52.12056,
+            7.093122
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Avia Express",
+        "coordinates": [
+            51.94099,
+            7.029118
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Westfalen Tanken",
+        "coordinates": [
+            51.656375,
+            6.946993
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Raiffeisen Tanken",
+        "coordinates": [
+            51.608165,
+            6.933056
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tank-port",
+        "coordinates": [
+            51.543959,
+            6.916703
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            51.539942,
+            6.88594
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Total",
+        "coordinates": [
+            51.513783,
+            6.827363
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Tanken Celos",
+        "coordinates": [
+            51.293754,
+            6.879476
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            51.119714,
+            6.973691
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
+    },
+    {
+        "name": "Aral",
+        "coordinates": [
+            51.02301,
+            7.003723
+        ],
+        "icon": "fuel",
+        "information": "",
+        "link": ""
     }
 ]
