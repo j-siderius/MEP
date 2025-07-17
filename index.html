@@ -13,6 +13,10 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-gpx@2.2.0/gpx.js" defer></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.js"
+        charset="utf-8"></script>
 
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico">
 
@@ -63,27 +67,35 @@
         }).addTo(map);
 
 
-        map.locate({
-            setView: true,
-            maxZoom: 15,
-            // watch: true,
-            enableHighAccuracy: true 
-        });
+        // INSERT LOCATE HERE
+        L.control.locate({
+            locateOptions: {
+                enableHighAccuracy: true
+            }
+        }).addTo(map);
 
-        function onLocationFound(e) {
-            var radius = e.accuracy;
 
-            L.marker(e.latlng).addTo(map)
-                .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
+        // map.locate({
+        //     setView: true,
+        //     maxZoom: 15,
+        //     // watch: true,
+        //     enableHighAccuracy: true 
+        // });
 
-            L.circle(e.latlng, radius).addTo(map);
-        }
-        function onLocationError(e) {
-            alert(e.message);
-        }
+        // function onLocationFound(e) {
+        //     var radius = e.accuracy;
 
-        map.on('locationfound', onLocationFound);
-        map.on('locationerror', onLocationError);
+        //     L.marker(e.latlng).addTo(map)
+        //         .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
+
+        //     L.circle(e.latlng, radius).addTo(map);
+        // }
+        // function onLocationError(e) {
+        //     alert(e.message);
+        // }
+
+        // map.on('locationfound', onLocationFound);
+        // map.on('locationerror', onLocationError);
 
         let gpx_objects = new L.layerGroup();
 
