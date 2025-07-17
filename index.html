@@ -63,7 +63,12 @@
         }).addTo(map);
 
 
-        map.locate({ setView: true, maxZoom: 12 });
+        map.locate({
+            setView: true,
+            maxZoom: 15,
+            // watch: true,
+            enableHighAccuracy: true 
+        });
 
         function onLocationFound(e) {
             var radius = e.accuracy;
@@ -183,12 +188,14 @@
             .then(response => response.json())
             .then(data => {
                 for (let point in data) {
-                    let link = data[point].link != "" && data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a>` : "";
+                    let link = data[point].link != "" && data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a><br>` : "";
                     let info = data[point].information != "" && data[point].information != null ? `Information: ${data[point].information}<br>` : "";
                     let popup = `<b>${data[point].name}</b> <br><hr>
                             ${info}
                             Coordinates: ${data[point].coordinates[0].toFixed(4)}, ${data[point].coordinates[1].toFixed(4)}<br>
                             ${link}
+                            <a href='https://www.google.com/maps/place/${data[point].coordinates[0]},${data[point].coordinates[1]}' target='_blank'>Google Maps</a> | 
+                            <a href="geo:${data[point].coordinates[0]},${data[point].coordinates[1]}" target="_blank">Mobile Navigation</a>
                             `
                     let point_obj = L.marker(data[point].coordinates, {
                         icon: icons[data[point].icon]

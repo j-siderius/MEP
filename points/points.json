@@ -1993,10 +1993,10 @@
         "link": ""
     },
     {
-        "name": "Avia Express",
+        "name": "Avia",
         "coordinates": [
-            51.94099,
-            7.029118
+            51.94237621973122, 
+            7.025688771168534
         ],
         "icon": "fuel",
         "information": "",
