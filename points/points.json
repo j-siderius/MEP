@@ -2083,6 +2083,226 @@
         "information": "",
         "link": ""
     },
+{
+    "name": "Tanken Ip",
+    "coordinates": [
+        45.445051,
+        7.845163
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken ZG",
+    "coordinates": [
+        45.42736,
+        7.948174
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tamoil",
+    "coordinates": [
+        45.407279,
+        8.013012
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Q8",
+    "coordinates": [
+        45.408666,
+        8.012743
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Enercoop",
+    "coordinates": [
+        45.294989,
+        8.392811
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Sarni Oil",
+    "coordinates": [
+        45.252379,
+        8.447832
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken?",
+    "coordinates": [
+        45.153715,
+        8.448738
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Eni Agip",
+    "coordinates": [
+        45.129865,
+        8.475826
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Q8",
+    "coordinates": [
+        45.07372,
+        8.509363
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tamoil",
+    "coordinates": [
+        45.075348,
+        8.510716
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Esso",
+    "coordinates": [
+        44.819641,
+        8.595152
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Ip",
+    "coordinates": [
+        44.817185,
+        8.593826
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Q8",
+    "coordinates": [
+        44.627935,
+        8.652411
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Ip",
+    "coordinates": [
+        44.592357,
+        8.666142
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Esso",
+    "coordinates": [
+        44.591613,
+        8.66451
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Sarni Oil",
+    "coordinates": [
+        44.455151,
+        8.744668
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Q8",
+    "coordinates": [
+        44.454378,
+        8.745431
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Q8",
+    "coordinates": [
+        44.371911,
+        8.616347
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tamoil",
+    "coordinates": [
+        44.36916,
+        8.610853
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Ip",
+    "coordinates": [
+        44.287232,
+        8.440407
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Tanken Ip",
+    "coordinates": [
+        44.213716,
+        8.325665
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+},
+{
+    "name": "Eni Agip",
+    "coordinates": [
+        44.171386,
+        8.355668
+    ],
+    "icon": "fuel",
+    "information": "",
+    "link": ""
+    },
     {
         "name": "Dreimühlen-Wasserfall",
         "coordinates": [
@@ -2142,5 +2362,5 @@
         "icon": "town",
         "information": "Bad Münstereifel is a historical spa town in the district of Euskirchen, Germany, with about 17,000 inhabitants, situated in the far southwest of the German state of North Rhine-Westphalia.",
         "link": "https://www.eifelgids.nl/bad-munstereifel.html"
-    }
+}
 ]
