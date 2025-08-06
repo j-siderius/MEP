@@ -46,7 +46,7 @@
     <div id="map"></div>
 
     <span id="links">
-        <p><a href="addRoutes.html" target="_blank" rel="noopener noreferrer">Add route</a> <a href="addPoints.html"
+        <p><span id="nrRoutes"></span> & <span id="nrPoints"></span> | <a href="addRoutes.html" target="_blank" rel="noopener noreferrer">Add route</a> <a href="addPoints.html"
                 target="_blank" rel="noopener noreferrer">Add point</a></p>
     </span>
 
@@ -65,6 +65,10 @@
         let layerControl = L.control.layers({
             "OSM": osm
         }).addTo(map);
+
+        map.addEventListener('click', (e) => {
+            console.log("Clicked at: " + e.latlng.lat + ", " + e.latlng.lng)
+        });
 
 
         // INSERT LOCATE HERE
@@ -102,6 +106,7 @@
         fetch('routes/gpx_routes.json')
             .then(response => response.json())
             .then(data => {
+                document.getElementById("nrRoutes").innerText = data.length + " routes";
                 for (let route in data) {
                     if (!data[route].gpxFile) {
                         console.error("This route entry does not contain a GPX file:", data[route]);
@@ -199,6 +204,7 @@
         fetch('points/points.json')
             .then(response => response.json())
             .then(data => {
+                document.getElementById("nrPoints").innerText = data.length + " points loaded";
                 for (let point in data) {
                     let link = data[point].link != "" && data[point].link != null ? `Link: <a href='${data[point].link}' target='_blank'>click</a><br>` : "";
                     let info = data[point].information != "" && data[point].information != null ? `Information: ${data[point].information}<br>` : "";

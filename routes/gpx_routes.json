@@ -255,5 +255,152 @@
         "elevation": 121,
         "duration": 180,
         "link": "https://www.outdooractive.com/de/route/stadtrundgang/eifel/ueber-den-daechern-von-monschau-der-panoramaweg/112725035/"
+    },
+    {
+        "name": "Bollendorfer Märchenpfad ",
+        "gpxFile": "t10375311_bollendorfer maerchenpfad.gpx",
+        "elevation": 155,
+        "duration": 120,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/thematic-trail/bollendorfer-maerchenpfad/10375311/"
+    },
+    {
+        "name": "Rundwanderweg des Naturpark Südeifel Nr. 43 - Körperich/Hüttingen",
+        "gpxFile": "t41671382_rundwanderweg des.gpx",
+        "elevation": 135,
+        "duration": 196,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-43-koerperich-huettingen/41671382/"
+    },
+    {
+        "name": "\tRundwanderweg des Naturpark Südeifel Nr. 42 - Körperich/Roth a. d. Our",
+        "gpxFile": "t41670959_rundwanderweg des.gpx",
+        "elevation": 275,
+        "duration": 210,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-42-koerperich-roth-a.-d.-our/41670959/"
+    },
+    {
+        "name": "Rundwanderweg des Naturpark Südeifel Nr. 83 - Gentingen",
+        "gpxFile": "t41671324_rundwanderweg des.gpx",
+        "elevation": 139,
+        "duration": 105,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-83-gentingen/41671324/"
+    },
+    {
+        "name": "Rundwanderweg des Naturpark Südeifel Nr. 84 - Gentingen",
+        "gpxFile": "t41671338_rundwanderweg des.gpx",
+        "elevation": 115,
+        "duration": 66,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-84-gentingen/41671338/"
+    },
+    {
+        "name": "Rundwanderweg des Naturparks Südeifel Nr. 49 Mettendorf-Hüttingen",
+        "gpxFile": "t50150820_rundwanderweg des.gpx",
+        "elevation": 294,
+        "duration": 234,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturparks-suedeifel-nr.-49-mettendorf-huettingen/50150820/"
+    },
+    {
+        "name": "Rundwanderweg des Naturpark Südeifel Nr. 50 - Mettendorf",
+        "gpxFile": "t41671196_rundwanderweg des.gpx",
+        "elevation": 146,
+        "duration": 140,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-50-mettendorf/41671196/"
+    },
+    {
+        "name": "\tRundwanderweg des Naturpark Südeifel Nr. 39 Geichlingen",
+        "gpxFile": "t50131773_rundwanderweg des.gpx",
+        "elevation": 163,
+        "duration": 115,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-39-geichlingen/50131773/"
+    },
+    {
+        "name": "Circular walk NaturWanderPark delux: Nat'Our Route 6 (L-Vianden/D-Körperich)",
+        "gpxFile": "t3618142_circular walk.gpx",
+        "elevation": 434,
+        "duration": 250,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/circular-walk-naturwanderpark-delux-nat-our-route-6-l-vianden-d/3618142/"
+    },
+    {
+        "name": "Familienfreundliche Wandertour Trierer Felsenpfad",
+        "gpxFile": "t51067703_familienfreundliche.gpx",
+        "elevation": 220,
+        "duration": 165,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/familienfreundliche-wandertour-trierer-felsenpfad/51067703/"
+    },
+    {
+        "name": "Orchid paradise Wasserliesch",
+        "gpxFile": "t16927441_orchid paradise.gpx",
+        "elevation": 277,
+        "duration": 105,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/thematic-trail/orchid-paradise-wasserliesch/16927441/"
+    },
+    {
+        "name": "Moselsteig Side Trail Wasserliescher Panoramasteig",
+        "gpxFile": "t50211717_moselsteig side trail.gpx",
+        "elevation": 400,
+        "duration": 300,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/moselsteig-side-trail-wasserliescher-panoramasteig/50211717/"
+    },
+    {
+        "name": "Impulsweg Wasserliesch",
+        "gpxFile": "t36699349_impulsweg wasserliesch.gpx",
+        "elevation": 38,
+        "duration": 38,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/thematic-trail/impulsweg-wasserliesch/36699349/"
+    },
+    {
+        "name": "Mosel-Winter-Wanderung Obermosel (Orchideen-Gebiet Wasserliesch)",
+        "gpxFile": "t20657785_mosel-winter-wanderung.gpx",
+        "elevation": 75,
+        "duration": 75,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/mosel-winter-wanderung-obermosel-orchideen-gebiet-wasserliesch-/20657785/"
+    },
+    {
+        "name": "Trier base camp (up high: Porta Nigra to the Weisshauswald - W2)",
+        "gpxFile": "t38444773_trier base camp (up high.gpx",
+        "elevation": 222,
+        "duration": 202,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/trier-base-camp-up-high-porta-nigra-to-the-weisshauswald-w2-/38444773/#caml=b19,13jmco,88cecm,0,0"
+    },
+    {
+        "name": "Familienwanderung auf dem Baum-Welt-Pfad am Forstamt Quint/Schweich",
+        "gpxFile": "t51063594_familienwanderung auf dem.gpx",
+        "elevation": 87,
+        "duration": 76,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/thematic-trail/familienwanderung-auf-dem-baum-welt-pfad-am-forstamt-quint-schweich/51063594/"
+    },
+    {
+        "name": "Bitburger LandGänge - Zwischen den Büschen - Rundweg Idenheim",
+        "gpxFile": "t55346529_bitburger landgaenge.gpx",
+        "elevation": 125,
+        "duration": 120,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/bitburger-landgaenge-zwischen-den-bueschen-rundweg-idenheim/55346529/#caml=bbl,135wgl,8927fn,0,0"
+    },
+    {
+        "name": "Bitburger LandGänge - \"Heldentour\"- Rundweg rund um Meckel",
+        "gpxFile": "t50598941_bitburger landgaenge.gpx",
+        "elevation": 55,
+        "duration": 55,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/bitburger-landgaenge-heldentour-rundweg-rund-um-meckel/50598941/"
+    },
+    {
+        "name": "Bitburger LandGänge - SULMANA - Rundweg um Sülm",
+        "gpxFile": "t53502482_bitburger landgaenge.gpx",
+        "elevation": 150,
+        "duration": 130,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/bitburger-landgaenge-sulmana-rundweg-um-suelm/53502482/"
+    },
+    {
+        "name": "Rundwanderweg des Naturpark Südeifel Nr. 51 - Kruchten-Nusbaum",
+        "gpxFile": "t41671527_rundwanderweg des.gpx",
+        "elevation": 228,
+        "duration": 237,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/rundwanderweg-des-naturpark-suedeifel-nr.-51-kruchten-nusbaum/41671527/"
+    },
+    {
+        "name": "\tBitburger LandGänge - \"Kleine Wacholderrunde\" - Rundweg rund um Halsdorf",
+        "gpxFile": "t50599108_bitburger landgaenge.gpx",
+        "elevation": 106,
+        "duration": 65,
+        "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/bitburger-landgaenge-kleine-wacholderrunde-rundweg-rund-um-halsdorf/50599108/"
     }
 ]
