@@ -178,5 +178,82 @@
         "elevation": 90,
         "duration": 91,
         "link": "https://www.tourenplaner-rheinland-pfalz.de/en/tour/hiking-trail/grosser-rundweg-teufelsschlucht-naturparkzentrum-teufelsschlucht/9955475/"
+    },
+    {
+        "name": "Natuurpark Zuidelijke Eifel wandelroute nr. 79 - Rittersdorf",
+        "gpxFile": "nr-79.gpx",
+        "elevation": 180,
+        "duration": 0,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-79"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel Wandelroute nr. 89",
+        "gpxFile": "route-89.gpx",
+        "elevation": 158,
+        "duration": 210,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-89"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel wandelroute nr. 78 - Baustert",
+        "gpxFile": "route-nr-78.gpx",
+        "elevation": 166,
+        "duration": 160,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-78"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel wandelroute nr. 77 - Brimingen",
+        "gpxFile": "wandelroute-nr-77.gpx",
+        "elevation": 97,
+        "duration": 110,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-77"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel wandelroute nr. 76 - Bettingen",
+        "gpxFile": "wanderweg-76.gpx",
+        "elevation": 190,
+        "duration": 160,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-76"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel wandelroute nr. 73 - Oberweis",
+        "gpxFile": "wandelroute-nr-73-oberweis.gpx",
+        "elevation": 186,
+        "duration": 135,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-73"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel Wandelroute nr. 71 - Wolsfeld",
+        "gpxFile": "wandelpad-71.gpx",
+        "elevation": 161,
+        "duration": 166,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-71"
+    },
+    {
+        "name": "Natuurpark Zuid-Eifel rondweg nr. 22 - Wißmannsdorf",
+        "gpxFile": "nr-22.gpx",
+        "elevation": 443,
+        "duration": 300,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-22"
+    },
+    {
+        "name": "Naturpark Südeifel Wanderweg Nr. 75",
+        "gpxFile": "wandelroute-nr-75.gpx",
+        "elevation": 182,
+        "duration": 170,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-75"
+    },
+    {
+        "name": "Naturpark Südeifel Wanderweg Nr. 16",
+        "gpxFile": "wandelroute-nr-16.gpx",
+        "elevation": 279,
+        "duration": 165,
+        "link": "https://www.eifel-direkt.de/nl/a-naturpark-suedeifel-wanderweg-nr-16"
+    },
+    {
+        "name": "Über den Dächern von Monschau – Der Panoramaweg",
+        "gpxFile": "t112725035_ueber den daechern von.gpx",
+        "elevation": 121,
+        "duration": 180,
+        "link": "https://www.outdooractive.com/de/route/stadtrundgang/eifel/ueber-den-daechern-von-monschau-der-panoramaweg/112725035/"
     }
 ]

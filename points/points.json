@@ -1912,7 +1912,8 @@
         "icon": "fuel",
         "information": "",
         "link": ""
-    },{
+    },
+    {
         "name": "Avia",
         "coordinates": [
             52.185612,
@@ -1995,7 +1996,7 @@
     {
         "name": "Avia",
         "coordinates": [
-            51.94237621973122, 
+            51.94237621973122,
             7.025688771168534
         ],
         "icon": "fuel",
@@ -2081,5 +2082,65 @@
         "icon": "fuel",
         "information": "",
         "link": ""
+    },
+    {
+        "name": "Dreimühlen-Wasserfall",
+        "coordinates": [
+            50.32490516671514,
+            6.768876282785282
+        ],
+        "icon": "waterfall",
+        "information": "",
+        "link": "https://www.eifelinfo.nl/watervallen-in-de-eifel-de-dreimuhlen-waterval-bij-nohn/"
+    },
+    {
+        "name": "Cochem Castle",
+        "coordinates": [
+            50.142699135410176,
+            7.166861106663716
+        ],
+        "icon": "castle",
+        "information": "Burcht en dorp Cochem",
+        "link": "http://www.reichsburg-cochem.de/"
+    },
+    {
+        "name": "Vulkaneifel Therme",
+        "coordinates": [
+            50.06942249480046,
+            7.031212440448896
+        ],
+        "icon": "swimming",
+        "information": "Thermenbad + sauna",
+        "link": "https://www.vulkaneifeltherme.de/"
+    },
+    {
+        "name": "Laacher See",
+        "coordinates": [
+            50.41432636429046,
+            7.2707914338171005
+        ],
+        "icon": "wetland",
+        "information": "Volcanic crater lake with camping, hiking, boat rentals & the medieval Maria Laach Abbey.",
+        "link": ""
+    },
+    {
+        "name": "Monschau",
+        "coordinates": [
+            50.5538972886134,
+            6.2395489120198215
+        ],
+        "icon": "town",
+        "information": "Monschau is a town in western Germany, near the Belgian border. It’s known for its medieval center, with half-timbered houses and narrow cobblestone streets. Looming over the town, turreted Monschau Castle hosts open-air concerts. The Red House, the 1752 home of a wealthy cloth manufacturer, includes lavish period furnishings and a carved, winding oak staircase. Trails traverse nearby Eifel National Park.",
+        "link": "https://www.monschau.nl/nl/startpagina/"
+    },
+    {
+        "name": "Bad Münstereifel",
+        "coordinates": [
+            50.554679323112026,
+            6.763213799742259
+        ],
+        "icon": "town",
+        "information": "Bad Münstereifel is a historical spa town in the district of Euskirchen, Germany, with about 17,000 inhabitants, situated in the far southwest of the German state of North Rhine-Westphalia.",
+        "link": "https://www.eifelgids.nl/bad-munstereifel.html"
     }
 ]
